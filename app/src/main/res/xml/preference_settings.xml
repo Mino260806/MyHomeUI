@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:key="pref_screen_primary">
+    <PreferenceCategory android:title="Lockscreen" />
+    <CheckBoxPreference
+        android:title="Hide notifications"
+        android:summary="Not working"
+        android:defaultValue="false"
+        android:key="pref_show_notif" />
+    <CheckBoxPreference
+        android:title="Disable status bar"
+        android:defaultValue="false"
+        android:key="pref_prevent_statusbar" />
+    <PreferenceCategory android:title="Special" />
+    <PreferenceScreen
+        android:title="Special Settings"
+        android:key="pref_screen_special" >
+        <CheckBoxPreference
+            android:title="Show Konfetti on Boot"
+            android:defaultValue="true"
+            android:key="pref_konfetti" />
+    </PreferenceScreen>
+
+    <PreferenceCategory android:title="Other" />
+    <Preference
+        android:title="Contact developer"
+        android:summary="Problem report / suggestion"
+        android:key="pref_report_problem" />
+</PreferenceScreen>

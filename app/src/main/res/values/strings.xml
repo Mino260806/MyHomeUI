@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Home Ui</string>
+    <string name="title_activity_image_preview">ImagePreviewActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="transition_preview">transition_preview</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tutorial_activity">Tutorial</string>
+    <string name="title_activity_settings_activity">Settings</string>
+
+    <string name="refresh_button_location_default">0110</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposed_scope">
+        <item>com.android.systemui</item>
+    </string-array>
+    <string-array name="refresh_button_locations">
+        <item>"Top Right"</item>
+        <item>"Top Left"</item>
+        <item>"Bottom Right"</item>
+        <item>"Bottom Left"</item>
+    </string-array>
+    <string-array name="refresh_button_locations_values">
+        <item>"0110"</item> <!--left top right bottom -->
+        <item>"1100"</item>
+        <item>"0011"</item>
+        <item>"1001"</item>
+    </string-array>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".designer.ImagePreviewActivity">
+
+
+    <tn.amin.myhomeui.designer.other.ViewFreezerOverlay
+        android:id="@+id/fullscreen_preview_overlay"
+        android:transitionName="@string/transition_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:translationZ="0dp" />
+
+    <tn.amin.myhomeui.serializer.ViewDeserializerLayout
+        android:id="@+id/fullscreen_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/ic_launcher_background"
+        android:textSize="50sp"
+        android:textStyle="bold">
+    </tn.amin.myhomeui.serializer.ViewDeserializerLayout>
+
+</FrameLayout>

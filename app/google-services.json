@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "738143153059",
+    "project_id": "aminguermazo",
+    "storage_bucket": "aminguermazo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738143153059:android:9179cb8d5ae24b4336c816",
+        "android_client_info": {
+          "package_name": "tn.amin.myhomeui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738143153059-6u6hdj7na7lbr36lm8u1up156evab6i4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwavwJL0wUybZSap2BMrs6dsDD93e2Y5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738143153059-6u6hdj7na7lbr36lm8u1up156evab6i4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:parentTag="tn.amin.myhomeui.designer.draggable.DraggableViewContainer">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/draggable_view_margin"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/draggable_view_component_main">
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <View
+        android:background="@drawable/shape_draggable_view_border"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/draggable_view_component_border" />
+
+    <ImageButton
+        android:layout_width="@dimen/drag_button_size"
+        android:layout_height="@dimen/drag_button_size"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/shape_close_button"
+        android:visibility="gone"
+        android:id="@+id/draggable_view_component_close_button"/>
+    <ImageButton
+        android:layout_width="@dimen/drag_button_size"
+        android:layout_height="@dimen/drag_button_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:visibility="gone"
+        android:background="@drawable/shape_move_button"
+        android:id="@+id/draggable_view_component_move_button"/>
+</merge>

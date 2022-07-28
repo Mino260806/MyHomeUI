@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        android:id="@+id/linear_progress_bar"
+        app:hideAnimationBehavior="outward"
+        app:showAnimationBehavior="inward"/>
+    <tn.amin.myhomeui.designer.toolbar.ToolBarFormatting
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationZ="1dp"
+        android:background="@color/normal_grey"
+        android:visibility="invisible"
+        android:id="@+id/toolbar_formatting_layout" />
+    <tn.amin.myhomeui.designer.toolbar.ToolBarSlider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_slider"
+        android:visibility="invisible" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:width="@dimen/drag_button_size" android:height="@dimen/drag_button_size">
+        <shape android:shape="oval">
+            <stroke android:width="3dp" android:color="#333333" />
+            <solid android:color="#cccccc"/>
+        </shape>
+    </item>
+</layer-list>

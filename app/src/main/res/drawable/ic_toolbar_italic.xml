@@ -1,0 +1,8 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/toolbar_button_icon_size" android:height="@dimen/toolbar_button_icon_size"
+    android:viewportWidth="18"
+    android:viewportHeight="18">
+  <path
+      android:pathData="M14,1.5a0.5,0.5 0,0 1,-0.5 0.5,2.413 2.413,0 0,0 -1.56,0.4 2.046,2.046 0,0 0,-0.64 1.19L8.96,14.5a4.764,4.764 0,0 0,-0.1 0.62c0,0.59 0.55,0.88 1.64,0.88a0.5,0.5 0,0 1,0 1h-6a0.5,0.5 0,0 1,-0.02 -1h0.02a1.97,1.97 0,0 0,2.2 -1.59L9.05,3.5a3.136,3.136 0,0 0,0.09 -0.62c0,-0.59 -0.55,-0.88 -1.64,-0.88a0.5,0.5 0,0 1,-0.5 -0.5,0.5 0.5,0 0,1 0.5,-0.5h6a0.5,0.5 0,0 1,0.5 0.5z"
+      android:fillColor="#000000"/>
+</vector>

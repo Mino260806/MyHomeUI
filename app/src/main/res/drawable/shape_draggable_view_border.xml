@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/average_padding" android:bottom="@dimen/average_padding"
+        android:left="@dimen/average_padding" android:right="@dimen/average_padding">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <stroke android:width="@dimen/slim_border" android:color="@color/black" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drag_button_half_size">15dp</dimen>
+    <dimen name="drag_button_size">30dp</dimen>
+    <dimen name="toolbar_button_size">40dp</dimen>
+    <dimen name="toolbar_button_icon_size">20dp</dimen>
+    <dimen name="toolbar_button_icon_size_three_quarters">15dp</dimen>
+    <dimen name="separator_width">2dp</dimen>
+    <dimen name="slim_border">1dp</dimen>
+    <dimen name="low_padding">5dp</dimen>
+    <dimen name="average_padding">10dp</dimen>
+    <dimen name="high_padding">20dp</dimen>
+    <dimen name="xhigh_padding">30dp</dimen>
+
+    <dimen name="draggable_view_margin">@dimen/high_padding</dimen>
+    <dimen name="inserted_image_size">200dp</dimen>
+</resources>

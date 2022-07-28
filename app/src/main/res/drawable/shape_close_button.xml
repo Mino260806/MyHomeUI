@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:width="@dimen/drag_button_size"
+        android:height="@dimen/drag_button_size">
+        <shape android:shape="oval">
+            <stroke android:width="3dp" android:color="#333333" />
+            <solid android:color="#ff5555"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_baseline_close_24"
+        android:width="@dimen/drag_button_half_size"
+        android:height="@dimen/drag_button_half_size"
+        android:gravity="center" />
+</layer-list>

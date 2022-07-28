@@ -1,0 +1,7 @@
+<vector android:autoMirrored="true" android:height="@dimen/toolbar_button_icon_size"
+    android:viewportHeight="24" android:viewportWidth="24"
+    android:width="@dimen/toolbar_button_icon_size" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#000000" android:fillType="evenOdd"
+        android:pathData="M19,7L5,7C4.448,7 4,6.552 4,6C4,5.448 4.448,5 5,5L19,5C19.552,5 20,5.448 20,6C20,6.552 19.552,7 19,7ZM15,11L5,11C4.448,11 4,10.552 4,10C4,9.448 4.448,9 5,9L15,9C15.552,9 16,9.448 16,10C16,10.552 15.552,11 15,11ZM19,15L5,15C4.448,15 4,14.552 4,14C4,13.448 4.448,13 5,13L19,13C19.552,13 20,13.448 20,14C20,14.552 19.552,15 19,15ZM15,19L5,19C4.448,19 4,18.552 4,18C4,17.448 4.448,17 5,17L15,17C15.552,17 16,17.448 16,18C16,18.552 15.552,19 15,19Z"
+        android:strokeColor="#00000000" android:strokeWidth="1"/>
+</vector>
